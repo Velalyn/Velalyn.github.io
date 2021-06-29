@@ -1,0 +1,104 @@
+.body{
+
+	background-color: black;
+	margin: 0;
+
+}
+
+
+.background {
+	
+	background-image: url(images/cave.png);
+	top: 0;
+	bottom: 0;
+	background-repeat: no-repeat;
+	background-size: auto;
+	opacity: 0.5;
+}
+
+.yla{
+	
+	position: sticky;
+	top: 0;
+	height: 60px;
+	width: auto;
+	background-image: linear-gradient(-90deg, #46a404, black);
+
+}
+
+.ala{
+	
+	position: fixed;
+	bottom: 0;
+	height: 100px;
+	width: 1500px;
+	background-color: red;
+
+}
+
+
+.ylalogo{
+	
+	width:85px;
+	height:70px;
+	
+	
+}
+
+.ylalogo2{
+	
+	width:150px;
+	height:40px;
+	position:absolute;
+	bottom: 16%;
+	
+}
+
+.tytto{
+
+opacity: 0;
+	
+}
+
+
+.stone{
+
+	position: fixed;
+	bottom:0;
+	right: -70px;
+	
+}
+
+
+
+.logo
+    {
+      position:absolute;
+      bottom: 5%;
+      left: 25%;
+      z-index: 2;
+	  width:600px;
+	  height:500px;
+	  pointer-events: none;
+    }
+	
+.ears
+    {
+      position:absolute;
+      bottom: 5%;
+      left: 25%;
+      z-index: 1;
+	  width:600px;
+	  height:500px;
+	  transition: transform .7s ease-in-out;
+    }
+
+.ears:hover
+	{
+	
+		transform: rotate(-10deg);
+	
+	}
+	
+	
+}
