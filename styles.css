@@ -25,10 +25,15 @@ li a.navbar {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Verdana, sans-serif;
 }
 
 li a.navbar:hover {
-  background-color: #111;
+  background-color: #46a404;
+}
+
+li a:active {
+  background-color: #c17a00;
 }
 
 .background {
@@ -43,7 +48,6 @@ li a.navbar:hover {
 	z-index: 1;
 	
 }
-
 
 .ala{
 	
@@ -67,7 +71,7 @@ opacity: 0;
 	position: fixed;
 	bottom:0;
 	right: -8%;
-	z-index: 4;
+	z-index: 10;
 	
 }
 
@@ -77,7 +81,7 @@ opacity: 0;
 	position: fixed;
 	bottom:0;
 	left:  -8%;
-	z-index: 4;
+	z-index: 10;
 }
 
 
@@ -85,25 +89,100 @@ opacity: 0;
 .logo
     {
       position:absolute;
-      bottom: 5%;
-      left: 25%;
+      top: 15%;
+      left: 35%;
       z-index: 3;
-	  width:600px;
-	  height:500px;
+	  width:350px;
+	  height:300px;
 	  pointer-events: none;
     }
 	
 .ears
     {
       position:absolute;
-      bottom: 5%;
-      left: 25%;
+      top: 15%;
+      left: 35%;
       z-index: 2;
-	  width:600px;
-	  height:500px;
+	  width:350px;
+	  height: 300px;
 	  transition: transform .7s ease-in-out;
 	  pointer-events: none;
     }
+
+.logotext{
+	
+	position:absolute;
+	bottom: 35%;
+	left: 30%;
+	z-index: 2;
+	width: 38%;
+	height: 15%;
+	
+	
+}
+
+.flag1{
+	
+	position: absolute;
+	bottom: -60%;
+	right: -0%;
+	width: 70%;
+	height: 25%;
+	z-index: 4;
+
+
+}
+
+.flag2{
+	
+	position: absolute;
+	bottom: -140%;
+	left: -0%;
+	width: 70%;
+	height: 25%;
+	z-index: 4;
+
+}
+
+.gif1{
+	
+	position: absolute;
+	bottom: -100%;
+	right: 0%;
+	width: 60%;
+	height: 40%;
+	z-index: 4;
+	
+
+}
+
+.videotext1{
+	
+	position: absolute;
+	bottom: -55%;
+	right: 7%;
+	text-align: right;
+	text-transform: uppercase;
+	 font-size: 50px;
+	color: white;
+	z-index: 5;
+	
+
+}
+
+.videotext2{
+	
+	position: absolute;
+	bottom: -135%;
+	left: 7%;
+	text-align: left;
+	text-transform: uppercase;
+	 font-size: 50px;
+	color: white;
+	z-index: 5;
+	
+
+}
 	
 	
 }
