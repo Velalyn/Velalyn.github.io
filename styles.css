@@ -5,26 +5,45 @@
 
 }
 
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(-90deg, #46a404, black);
+  position: relative;
+  z-index: 2;
+}
+
+li.navbar {
+  float: left;
+}
+
+li a.navbar {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.navbar:hover {
+  background-color: #111;
+}
 
 .background {
 	
 	background-image: url(images/cave.png);
 	top: 0;
-	bottom: 0;
-	background-repeat: no-repeat;
-	background-size: auto;
-	opacity: 0.5;
-}
-
-.yla{
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	opacity: 0.6;
+	z-index: 1;
 	
-	position: sticky;
-	top: 0;
-	height: 60px;
-	width: auto;
-	background-image: linear-gradient(-90deg, #46a404, black);
-
 }
+
 
 .ala{
 	
@@ -34,24 +53,6 @@
 	width: 1500px;
 	background-color: red;
 
-}
-
-
-.ylalogo{
-	
-	width:85px;
-	height:70px;
-	
-	
-}
-
-.ylalogo2{
-	
-	width:150px;
-	height:40px;
-	position:absolute;
-	bottom: 16%;
-	
 }
 
 .tytto{
@@ -65,8 +66,18 @@ opacity: 0;
 
 	position: fixed;
 	bottom:0;
-	right: -70px;
+	right: -8%;
+	z-index: 4;
 	
+}
+
+
+.stone2{
+
+	position: fixed;
+	bottom:0;
+	left:  -8%;
+	z-index: 4;
 }
 
 
@@ -76,7 +87,7 @@ opacity: 0;
       position:absolute;
       bottom: 5%;
       left: 25%;
-      z-index: 2;
+      z-index: 3;
 	  width:600px;
 	  height:500px;
 	  pointer-events: none;
@@ -87,18 +98,12 @@ opacity: 0;
       position:absolute;
       bottom: 5%;
       left: 25%;
-      z-index: 1;
+      z-index: 2;
 	  width:600px;
 	  height:500px;
 	  transition: transform .7s ease-in-out;
+	  pointer-events: none;
     }
-
-.ears:hover
-	{
-	
-		transform: rotate(-10deg);
-	
-	}
 	
 	
 }
