@@ -192,6 +192,56 @@ background-color: #d08300;
 
 
 }
+
+.videotext1{
+	
+	position: absolute;
+	top: 135%;
+	right: 22%;
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: white;
+	width: 60%;
+	z-index: 5;
+	pointer-events: none;
+	
+
+}
+
+.videotext2{
+	
+	position: absolute;
+	top: 135%;
+	right: -3%;
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: white;
+	width: 60%;
+	z-index: 5;
+	pointer-events: none;
+	
+
+}
+
+.videotext3{
+	
+	position: absolute;
+	top: 135%;
+	right: -25%;
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: white;
+	width: 60%;
+	z-index: 5;
+	pointer-events: none;
+	
+
+}
+	
+	
 	
 	
 }
