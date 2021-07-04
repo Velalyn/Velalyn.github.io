@@ -32,13 +32,9 @@ li a.navbar:hover {
   background-color: #46a404;
 }
 
-li a.navbar:active {
-  background-color: red;
-}
-
 .active{
 	
-background-color: blue;	
+background-color: #d08300;	
 
 }
 
@@ -154,7 +150,7 @@ background-color: blue;
 	width: 100%;
 	height: 100px;
 	position: absolute;
-	bottom: -300%;
+	bottom: -130%;
 	z-index:3;
 	
 
