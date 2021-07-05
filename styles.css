@@ -5,6 +5,11 @@
 
 }
 
+.overflow{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 ul.navbar {
   list-style-type: none;
   margin: 0;
