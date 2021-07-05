@@ -2,13 +2,11 @@
 
 	background-color: black;
 	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
 
 }
 
-.overflow{
-  max-width: 100%;
-  overflow-x: hidden;
-}
 
 ul.navbar {
   list-style-type: none;
